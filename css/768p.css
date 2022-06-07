@@ -1,0 +1,15 @@
+#sectionA_header{
+    display: none;    
+}
+
+#icon_menu{
+    display: block;
+}
+
+header{
+    padding: 0 5rem;
+}
+
+#dropDownMenu{
+    display: none;
+}

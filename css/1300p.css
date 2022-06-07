@@ -1,0 +1,106 @@
+header{
+    height: 8rem;
+    padding: 0 10rem;
+}
+
+#sectionA_header, #sectionA_header_phone{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#icon_phone_header{
+    width: 5rem;
+}
+
+#sectionA_header_phone{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#sectionA_header_phone #phoneNumber{
+    font-size: 2rem;
+    color: #fff;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#sectionA_header_phone #callUs{
+    font-size: 1.4rem;
+    color: #99A9B5;
+    font-weight: bold;
+}
+
+
+#headerPhone_text{
+    height: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+#icon_menu{
+    display: none;
+}
+
+#dropDownMenu{
+    display: flex;
+}
+
+.dropDownMenu_item{
+    position: relative;
+    margin-left: 3rem;
+    padding: 2.5rem 0;
+    transition: all 0.2s;
+    cursor: pointer;
+}
+
+.dropDownMenu_item a:hover{
+    border-bottom: 2px solid #FF5B93;
+}
+
+.dropDownMenu_item:hover > .dropDownMenu_subMenu{
+    display: block;
+}
+
+#dropDownMenu a{
+    display: inline-flex;
+    padding: 0.5rem;
+    font-size: 1.6rem;
+    color: #fff;
+    font-weight: bold;
+}
+
+#dropDownMenu_itemHome{
+    border-bottom: 2px solid #00BEA4 ;
+}
+
+.dropDownMenu_subMenu{
+    display: none;
+    position: absolute;
+    top: 8rem;
+    left: 0;
+    width: 30rem;
+    padding: 0.5rem 0;
+    background-color: #333;
+    transition: all 0.3s;
+}
+
+#dropDownMenu .dropDownMenu_subMenu li a{
+    display: inline-flex;
+    width: 100%;
+    padding: 1rem 0 1rem 1.5rem;
+    border: none;
+    background-color: #333;
+    color: #ccc;
+}
+
+#dropDownMenu .dropDownMenu_subMenu li a:hover{
+    background-color: #00BEA4;
+    color: #fff;
+}
+
+#mobileMenu{
+    display: none;
+}
