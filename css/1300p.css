@@ -104,3 +104,40 @@ header{
 #mobileMenu{
     display: none;
 }
+
+#homeMain_slider_1920p{
+    height: 56rem;
+}
+
+#homeMain_slider_1920p{
+    display: block;
+}
+
+#homeMain_slider_768p, #homeMain_slider_1300p{
+    display: none;
+}
+
+.sliderTextA, .sliderTextB{
+    font-size: 3rem;
+    bottom: 3rem;
+}
+
+#back_icon, #forward_icon{
+    width: 4rem;
+    top: calc(50% - 2rem);    
+    cursor: pointer;
+}
+
+#programs button{
+    cursor: pointer;
+}
+
+#moreInfoHer:hover{
+    background-color: #FF5B93;
+    color: #fff;
+}
+
+#moreInfoHim:hover{
+    background-color: #00BEA4;
+    color: #fff;
+}
