@@ -50,6 +50,97 @@
                 </div>
             </div>
         </section>
+        <section id="offering">
+            <article>
+                <img src="./assets/icons/icon_person.svg" alt="icono de persona">
+                <h2>ENTRENADORES PERSONALES</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae officiis optio quia ipsum veritatis laudantium placeat, sequi doloremque, voluptatibus nostrum labore voluptate ipsa dolorum sit delectus? Quae ducimus assumenda animi?</p>
+                <button>INSCRÍBETE</button>
+            </article>
+            <article>
+                <img src="./assets/icons/icon_people.svg" alt="icono de personas">
+                <h2>CLASES<br>GRUPALES</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae officiis optio quia ipsum veritatis laudantium placeat, sequi doloremque, voluptatibus nostrum labore voluptate ipsa dolorum sit delectus? Quae ducimus assumenda animi?</p>
+                <button>INSCRÍBETE</button>
+            </article>
+            <article>
+                <img src="./assets/icons/icon_results.svg" alt="icono revision">
+                <h2>SEGUIMIENTO A RESULTADOS</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae officiis optio quia ipsum veritatis laudantium placeat, sequi doloremque, voluptatibus nostrum labore voluptate ipsa dolorum sit delectus? Quae ducimus assumenda animi?</p>
+                <button>INSCRÍBETE</button>
+            </article>
+        </section>
+        <section id="plans">
+            <h2>NUESTROS PLANES</h2>
+            <div id="plan_wrap">
+                <div id="beginner" class="plan">
+                    <div id="header_beginner" class="planHeader">
+                        <h3>PRINCIPIANTE</h3>
+                        <p>$39.00 / mes</p>
+                    </div>
+                    <p>2 Días por semana</p>
+                    <p>4 Clases mensuales</p>
+                    <p class="noIncluded">Clases gratuitas por mes</p>
+                    <p class="noIncluded">Plan de dieta incluido</p>
+                    <p class="noIncluded">Pruebas de avance</p>
+                    <p class="noIncluded">Plan de entrenamiento</p>
+                    <button id="planBeginner_button" class="planButton">CONTRATAR</button>
+                </div>
+                <div id="medium" class="plan">
+                    <div id="header_medium" class="planHeader">
+                        <h3>INTERMEDIO</h3>
+                        <p>$59.00 / mes</p>
+                    </div>
+                    <p>4 Días por semana</p>
+                    <p>8 Clases mensuales</p>
+                    <p>1 Clases gratuitas por mes</p>
+                    <p>Plan de dieta incluido</p>
+                    <p class="noIncluded">Pruebas de avance</p>
+                    <p class="noIncluded">Plan de entrenamiento</p>
+                    <button id="planBeginner_medium"class="planButton">CONTRATAR</button>
+                </div>
+                <div id="advanced" class="plan">
+                    <div id="header_advanced" class="planHeader">
+                        <h3>AVANZADO</h3>
+                        <p>$69.00 / mes</p>
+                    </div>
+                    <p>6 Días por semana</p>
+                    <p>12 Clases mensuales</p>
+                    <p>1 Clases gratuitas por mes</p>
+                    <p>Plan de dieta incluido</p>
+                    <p>Pruebas de avance</p>
+                    <p>Plan de entrenamiento</p>
+                    <button id="planBeginner_advanced" class="planButton">CONTRATAR</button>
+                </div>
+            </div>
+        </section>
+        <section id="whyWe">
+            <h2>POR QUÉ ESCOGERNOS</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt blanditiis ab pariatur, exercitationem eum inventore labore obcaecati, perferendis hic recusandae.</p>
+            <div id="whys">
+                <div class="why"><img src="./assets/images/why-we-img-1.webp" alt=""></div>
+                <div class="why">
+                    <p class="why_number">01</p>
+                    <p class="why_title">ENTRENADORES<br>PROFESIONALES</p>
+                    <p class="why_text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod cupiditate commodi tenetur non optio inventore aliquam eveniet, voluptatem voluptatibus delectus quaerat.</p>
+                    <button>MÁS INFORMACIÓN</button>
+                </div>
+                <div class="why"><img src="./assets/images/why-we-img-2.webp" alt=""></div>
+                <div class="why">
+                    <p class="why_number">01</p>
+                    <p class="why_title">PROGRAMAS<br>PERSONALIZADOS</p>
+                    <p class="why_text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod cupiditate commodi tenetur non optio inventore aliquam eveniet, voluptatem voluptatibus delectus quaerat.</p>
+                    <button>MÁS INFORMACIÓN</button>
+                </div>
+                <div class="why"><img src="./assets/images/why-we-img-3.webp" alt=""></div>
+                <div class="why">
+                    <p class="why_number">01</p>
+                    <p class="why_title">CLASES GRUPALES</p>
+                    <p class="why_text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod cupiditate commodi tenetur non optio inventore aliquam eveniet, voluptatem voluptatibus delectus quaerat.</p>
+                    <button>MÁS INFORMACIÓN</button>
+                </div>
+            </div>
+        </section>
     </main>
     <footer><?php include './components/footer.php' ?></footer>
     <script src="./js/header.js"></script>

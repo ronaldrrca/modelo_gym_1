@@ -79,3 +79,12 @@ header{
     text-align: left;
     padding: 0 1rem 0 0;
 }
+
+#plan_wrap{
+    justify-content: space-around;
+}
+
+.why{
+    width: 50%;
+    height: 51.2rem;
+}

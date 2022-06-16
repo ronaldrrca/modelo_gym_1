@@ -141,3 +141,60 @@ header{
     background-color: #00BEA4;
     color: #fff;
 }
+
+#offering button{
+    cursor: pointer;
+}
+
+#offering button:hover{
+    background-color: #fff;
+    color: #16171D;
+}
+
+.planButton{
+    cursor: pointer;
+}
+
+#planBeginner_button:hover{
+    background-color: #FF5B93;
+    color: #fff;
+}
+
+#planBeginner_medium:hover{
+    background-color: #00BEA4;
+    color: #fff;
+}
+
+#planBeginner_advanced:hover{
+    background-color: #B2E363;
+    color: #fff;
+}
+
+.why{
+    width: 33%;
+}
+
+.why:nth-child(2) button:hover{
+    background-color: #fff;
+    border: 2px solid #fff;
+    color: #00BEA4;
+    cursor: pointer;
+}
+
+.why:nth-child(4) button:hover{
+    background-color: #fff;
+    border: 2px solid #fff;
+    color: #FF5B93;
+    cursor: pointer;
+}
+
+.why:nth-child(6) button:hover{
+    background-color: #fff;
+    border: 2px solid #fff;
+    color: #B2E363;
+    cursor: pointer;
+}
+
+
+
+
