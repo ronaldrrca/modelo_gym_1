@@ -115,7 +115,7 @@
             </div>
         </section>
         <section id="whyWe">
-            <h2>POR QUÉ ESCOGERNOS</h2>
+            <h2>¿POR QUÉ ESCOGERNOS?</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt blanditiis ab pariatur, exercitationem eum inventore labore obcaecati, perferendis hic recusandae.</p>
             <div id="whys">
                 <div class="why"><img src="./assets/images/why-we-img-1.webp" alt=""></div>
@@ -141,6 +141,21 @@
                 </div>
             </div>
         </section>
+        <sectiion id="galery">
+            <h2>GALERÍA</h2>
+            <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta iste fugiat exercitationem corporis autem vero, accusantium fugit quae! Ab ratione magni.</P>
+            <div id="galery_wraper">
+                <div class="photo_container"><div class="courtain"></div><p>YOGA</p><img src="./assets/images/galery-1.webp" alt="mancuernas" loading="lazy"></div>
+                <div class="photo_container"><div class="courtain"></div><p>PILATES</p><img src="./assets/images/galery-2.webp" alt="caminadoras" loading="lazy"></div>
+                <div class="photo_container"><div class="courtain"></div><p>CLASES INDIVIDUALES</p><img src="./assets/images/galery-3.webp" alt="mujeres con mancuernas ejercitando las piernas" loading="lazy"></div>
+                <div class="photo_container"><div class="courtain"></div><p>CLASES GRUPALES</p><img src="./assets/images/galery-4.webp" alt="mujer haciendo ejercicios de calentamiento" loading="lazy"></div>
+                <div class="photo_container"><div class="courtain"></div><p>SPINNING</p><img src="./assets/images/galery-5.webp" alt="mujer haciendo ejercicios de piernas" loading="lazy"></div>
+                <div class="photo_container"><div class="courtain"></div><p>BODY BUILDING</p><img src="./assets/images/galery-6.webp" alt="mates de yoga organizados en un gabinete" loading="lazy"></div>
+            </div>
+            <a href="#"><button>MIRA TODA LA GALERÍA</button></a>
+        </sectiion>
+        <sectiion id="trainers"></sectiion>
+        <sectiion id="reseñas"></sectiion>
     </main>
     <footer><?php include './components/footer.php' ?></footer>
     <script src="./js/header.js"></script>

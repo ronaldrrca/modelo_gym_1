@@ -195,6 +195,45 @@ header{
     cursor: pointer;
 }
 
+.photo_container{
+    width: 40rem;
+}
+
+.photo_container p{
+    cursor: pointer;
+}
+
+#galery{
+    padding: 0;
+}
+
+.photo_container img{
+    cursor: pointer;
+}
+
+.courtain{
+    cursor: pointer;
+}
+
+#galery button:hover{
+    background-color: #00BEA4;
+    border: 2px solid #fff;
+    color: #fff;
+} 
+
+#galery button{
+    cursor: pointer;
+}
+
+/* #footer_container{
+    
+    flex-direction: row;
+   
+} */
+
+#footer_section_b{
+    justify-content: space-around;
+}
 
 
 

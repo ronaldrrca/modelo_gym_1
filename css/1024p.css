@@ -9,3 +9,30 @@
 #dropDownMenu{
     display: none;
 }
+
+#footer_infoContainer{
+    width: 50%;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#footer_mapContainer{
+    width: 50%;
+}
+
+#footer_infoContainer > div{
+    width: 50%;
+    padding-left: 3rem;
+}
+
+#footer_container{
+   
+    flex-direction: row;
+   
+}
+
+.footer_iconBox{
+    width: 5rem;
+    height: 5rem;
+    right: 3rem;
+}

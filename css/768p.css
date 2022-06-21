@@ -88,3 +88,31 @@ header{
     width: 50%;
     height: 51.2rem;
 }
+
+/* .photo_container{
+    max-width: 32rem;
+    max-height: 32rem;
+} */
+
+#galery{
+    justify-content: space-around;
+    padding: 0 5rem;
+}
+
+#galery_wraper{
+    justify-content: space-around;
+}
+
+
+#footer_infoContainer > div{
+    padding-left: 6rem;
+}
+
+.footer_iconBox{
+    width: 7rem;
+    height: 7rem;
+    right: 6rem;
+}
+
+
+    

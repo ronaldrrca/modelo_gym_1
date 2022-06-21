@@ -38,6 +38,13 @@ nav{
     position: relative;
 }
 
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 #logo_header{
     width: 15rem;
 }
@@ -498,6 +505,7 @@ nav{
     max-width: 60rem;
     margin-bottom: 6rem;
     font-size: 1.6rem;
+    line-height: 2.2rem;
     color: #5f727f;
 }
 
@@ -549,3 +557,219 @@ nav{
 .noIncluded{
     text-decoration: line-through;
  }
+
+ #galery{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+ }
+
+ #galery_wraper{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+ }
+
+ .photo_container{
+    position: relative;
+    width: 35rem;
+    height: 35rem;
+    overflow: hidden;
+    margin-bottom: 4rem;
+    border-radius: 5px;
+    transition: all 0.3s;
+}
+
+ .photo_container img{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+ }
+
+ #galery h2{
+    width: 100%;
+    margin: 10rem 0 6rem 0;
+    text-align: center;
+    font-size: 4rem;
+    font-weight: bolder;
+    color: #000;
+}
+
+#galery > p{
+    display: inline;
+    text-align: center;
+    max-width: 60rem;
+    margin-bottom: 6rem;
+    font-size: 1.6rem;
+    line-height: 2.2rem;
+    color: #5f727f;
+}
+
+.photo_container p{
+    display: none;
+    position: absolute;
+    top: 45%;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+    color: #fff;
+    transition: all 0.3s;
+}
+
+.courtain{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #FF5B93;
+    opacity: 0.7;
+    transition: all 0.3s;
+}
+
+.photo_container:hover > p, .photo_container:hover > .courtain{
+    display: inline-block;
+}
+
+#galery button{
+    padding: 1rem 2rem;
+    background-color: #fff;
+    font-size: 1.8rem;
+    font-weight: bold;
+    border: 2px solid #00BEA4;
+    color: #00BEA4;
+} 
+
+#galery a{
+    margin-top: 5rem;
+}
+
+#footer_infoContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#footer_infoContainer > div{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 20rem;
+    padding-left: 3rem;
+    background-color: #2D303F;
+    border: 1px solid #ccc;
+}
+
+#footer_infoContainer div p:nth-child(1){
+    margin-bottom: 3rem;
+    font-size: 1.6rem;
+    color: #fff;
+    font-weight: bold;
+}
+
+#footer_infoContainer div p:nth-child(2){
+    font-size: 1.4rem;
+    color: #99A9B5;
+    font-weight: 400;
+    line-height: 2rem;
+}
+
+#footer_mapContainer{
+    width: 100%;
+}
+
+footer iframe{
+    width: 100%;
+    height: 40rem;
+}
+
+#footer_infoContainer img{
+    width: 3rem;
+    transform: rotate(-45deg);
+}
+
+.footer_iconBox{
+    position: absolute;
+    top: 3rem;
+    right: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: rotate(45deg);
+    width: 5rem;
+    height: 5rem;
+}
+
+#address_iconBox{
+    border: 2px solid #B2E363;
+}
+
+
+#phone_iconBox{
+    border: 2px solid #00BEA4;
+}
+
+#email_iconBox{
+    border: 2px solid #FF5B93;
+}
+
+#clock_iconBox{
+    border: 2px solid #1A73E8;
+}
+
+#footer_container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15rem;
+}
+
+#footer_section_b{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0;
+    border-top: 1px solid #ccc;
+    background-color: #262626;
+}
+
+#footer_socialMedia{
+    width: 30rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#footer_socialMedia a img{
+    width: 2rem;
+}
+
+#footer_socialMedia {
+    padding: 3rem 0;
+}
+
+#footer_copyRight
+{
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+#footer_copyRight span{
+    color: #ff6600;
+}
+
