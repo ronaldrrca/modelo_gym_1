@@ -197,6 +197,7 @@ header{
 
 .photo_container{
     width: 40rem;
+    height: 40rem;
 }
 
 .photo_container p{
@@ -233,6 +234,13 @@ header{
 
 #footer_section_b{
     justify-content: space-around;
+}
+
+
+@media (min-width:1600px){
+    .photo_container{
+        width: 50rem;
+    }
 }
 
 
